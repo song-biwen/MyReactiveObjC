@@ -1,0 +1,21 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+target 'MyReactiveObjC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod "ReactiveObjC"
+
+  # Pods for MyReactiveObjC
+
+  target 'MyReactiveObjCTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyReactiveObjCUITests' do
+    # Pods for testing
+  end
+
+end
